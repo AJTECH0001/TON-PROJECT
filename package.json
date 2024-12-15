@@ -1,0 +1,20 @@
+{
+  "name": "my_first_ton_contract",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "@swc/core": "^1.6.13",
+    "@ton-community/func-js": "^0.7.0",
+    "@ton/core": "^0.56.3",
+    "@types/node": "^20.14.10",
+    "ton-crypto": "^3.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  },
+  "scripts": {
+    "compile": "ts-node ./scripts/compile.ts"
+  },
+  "dependencies": {
+    "@ton/crypto": "^3.2.0"
+  }
+}
